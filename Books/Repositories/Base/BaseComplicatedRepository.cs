@@ -8,7 +8,6 @@ namespace Books.Repositories.Base
     /// Сложный базовый репозиторий (если с элементом нужно загрузить вложенные элементы)
     /// </summary>
     /// <typeparam name="T">Сущность</typeparam>
-    /// <typeparam name="TProperty">Вложенная сущность</typeparam>
     public class BaseComplicatedRepository<T> : BaseRepository<T>, IBaseComplicatedRepository<T>
         where T : class
     {
