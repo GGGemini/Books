@@ -5,7 +5,7 @@ using Books.Repositories.Interfaces;
 
 namespace Books.Repositories
 {
-    public class AuthorsRepository : BaseComplicatedRepository<Author, Book>, IAuthorsRepository
+    public class AuthorsRepository : BaseComplicatedRepository<Author>, IAuthorsRepository
     {
         public AuthorsRepository(AppDbContext context) : base(context)
         {

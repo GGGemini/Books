@@ -1,6 +1,5 @@
 ﻿using Books.Models.Entities;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Books.Repositories.Context
 {

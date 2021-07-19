@@ -3,7 +3,7 @@ using Books.Repositories.Base;
 
 namespace Books.Repositories.Interfaces
 {
-    public interface IAuthorsRepository : IBaseRepository<Author>
+    public interface IAuthorsRepository : IBaseComplicatedRepository<Author>
     {
     }
 }

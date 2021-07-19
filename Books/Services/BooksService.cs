@@ -1,12 +1,12 @@
-﻿using Books.Models.Entities;
+﻿using Books.Models.DTOs;
+using Books.Models.Entities;
+using Books.Models.Views;
 using Books.Repositories.Interfaces;
+using Books.Services.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Books.Models.DTOs;
-using Books.Services.Interfaces;
-using Books.Models.Views;
 
 namespace Books.Services
 {
